@@ -23,7 +23,7 @@ body {
   font-family: var(--serif);
   font-size: 1rem;
   line-height: 1.8;
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 52px 24px 120px;
   -webkit-font-smoothing: antialiased;
