@@ -1,5 +1,22 @@
 title: "log.sys"
-description: "Writing on embedded systems and hardware."
-url: "https://yourusername.github.io"
+description: "Writing on embedded systems, FPGA, Linux kernel, and ML at the edge."
+author: "Alex"
+url: "https://laperex.github.io"
+baseurl: ""
+
 permalink: /:year/:month/:day/:title/
+
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
